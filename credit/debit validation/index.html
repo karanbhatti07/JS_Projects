@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit/Debit validation</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h2>Credit Card</h2>enters your card details
+        </div>
+        <h2 id="label1">Name:</h2>
+        <input type="text" id="name">
+        <p id="error"></p>
+        <h2 id="label2">Credit Card Number:</h2>
+        <input type="number" id="crd_no" placeholder="0000 0000 0000 0000">
+        <p id="error2"></p>
+        <!-- <h2 id="label1">Name:</h2>
+        <input type="text"> -->
+        <div class="div2">
+            <div class="month_div">
+                <h2 id="label3">Month</h2>
+                <input type="number" id="month_input">
+                <p id="error3"></p>
+            </div>
+            <div class="year_div">
+                <h2 id="label4">year</h2>
+                <input type="number" id="year_input">
+                <p id="error4"></p>
+            </div>
+            <div class="cvv_div">
+                <h2 id="label5">CVV/CVC</h2>
+                <input type="number" id="cvv_input">
+                <p id="error5"></p>
+            </div>
+        </div>
+        <div class="bottom">
+            <button id="reset_btn" onclick="reset()">Reset</button>
+            <button id="continue_btn" onclick="check()">Continue</button>
+        </div>
+    </div>
+</body>
+</html>

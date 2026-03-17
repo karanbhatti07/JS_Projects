@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1>Validation Form</h1>
+    <div id="outer">
+    <form name="myform" onsubmit="return register1()">
+        <!-- <fieldset> -->
+            <!-- <legend>Validation Form</legend> -->
+
+            <label for="fname">First Name :</label><br>
+            <input type="text" name="fname" id="f_name" class="input"><br><br>
+            <p id="error"></p>
+
+            <label for="lname" >Last Name :</label><br>
+            <input type="text" name="lname" id="l_name"><br><br>
+            <p id="error2"></p>
+
+            <label for="email" >Email :</label><br>
+            <input type="email" name="email" id="email"><br><br>
+            <p id="error3"></p>
+
+            
+            <label for="Phone" >Phone Number :</label><br>
+            <input type="number" name="Phone" id="phone"><br><br>
+            <p id="error4"></p>
+
+
+            <label for="Password" >Password :</label><br>
+            <div class="password_box">
+            <input type="password" name="Password" id="pwd">
+            <i class="fa-regular fa-eye"></i><br><br>
+            </div>
+            <p id="error5"></p>
+
+            
+            <label for="c_password" >Confirm Password : </label><br>
+            <input type="password" name="c_password" id="cpwd"><br><br>
+            <p id="error6"></p>
+
+
+            <label for="age">Age:</label><br>
+            <input type="number" name="age" id="age"><br><br>
+            <p id="error7"></p>
+
+
+            <label for="gender" >Gender:</label><br>
+            <input type="radio" class="radiobtn" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" class="radiobtn" name="gender" id="female">
+            <label for="male">Female</label><br><br>
+            <p id="error8"></p>
+
+            <input type="checkbox" id="checkbtn">
+            <span>Accept Terms & Conditions :</span><br><br>
+            <p id="error10"></p>
+
+            <input id="button" type="submit">
+        </fieldset>
+    </form>
+    </div>
+</body>
+</html>

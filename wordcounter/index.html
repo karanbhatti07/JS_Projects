@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Counter</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="heading"> <h1>Word Counter</h1></div>
+        <textarea id="textarea" rows="5" cols="46" placeholder="Enter text....." value=""></textarea>
+        <div class="options">
+            <button id="charbtn" onclick="charactercount()" >Characters<input id="ch_input" type="text" disabled value=""> </button>
+            <button id="wrdbtn" onclick="wordcount()">Words <input type="text" id="w_input" disabled value=""> </button>
+            <button id="stcbtn">Sentences <input type="text" id="s_input"></button>
+            <button id="clr_btn" onclick="clearall()">Clear</button>
+        </div>
+    </div>
+</body>
+</html>

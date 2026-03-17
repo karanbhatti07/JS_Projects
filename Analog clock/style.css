@@ -1,0 +1,126 @@
+.outer{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border: 15px solid black;
+    border-radius: 50%;
+    margin: 200px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center{
+    height: 5px;
+    width: 5px;
+    border: 5px solid black;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+}
+.min{
+    position: absolute;
+    z-index: -1;
+    height: 80px;
+    width: 5px;
+    background-color: black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transform-origin: top;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.hrs{
+    position: absolute;
+    height: 50px;
+    top: 10%;
+    left:-50%;
+    width: 10px;
+    background-color: black;
+    transform-origin: top;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.sec{
+    position: absolute;
+    height: 100px;
+    width: 5px;
+    /* top: 125px; */
+    transform-origin: top;
+    background-color: red;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#t{
+    position: absolute;
+    top: 0px;
+    left: 115px;
+    font-size: 20px;
+}
+#o{
+    position: absolute;
+    top: 20px;
+    left: 183px;
+    font-size: 20px;
+}
+#tw{
+    position: absolute;
+    top: 70px;
+    left: 230px;
+    font-size: 20px;
+}
+#th{
+    position: absolute;
+    top: 120px;
+    left: 240px;
+    font-size: 20px;
+}
+#fo{
+    position: absolute;
+    top: 170px;
+    left: 220px;
+    font-size: 20px;
+}
+#fi{
+    position: absolute;
+    top: 216px;
+    left: 180px;
+    font-size: 20px;
+}
+#si{
+    position: absolute;
+    top: 230px;
+    left: 120px;
+    font-size: 20px;
+}
+#se{
+    position: absolute;
+    top: 216px;
+    left: 57px;
+    font-size: 20px;
+}
+#ei{
+    position: absolute;
+    top: 170px;
+    left: 15px;
+    font-size: 20px;
+}
+#ni{
+    position: absolute;
+    top: 120px;
+    left: 5px;
+    font-size: 20px;
+}
+#te{
+    position: absolute;
+    top: 70px;
+    left: 10px;
+    font-size: 20px;
+}
+#el{
+    position: absolute;
+    top: 25px;
+    left: 45px;
+    font-size: 20px;
+}
+
+

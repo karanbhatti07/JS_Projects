@@ -1,0 +1,175 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+h1{
+    margin: auto;
+}
+#f_name{
+    border-radius: 20px;
+    box-shadow: 5px 5px rgb(155, 129, 129);
+    border: none;
+}
+#l_name{
+    border-radius: 20px;
+    box-shadow: 5px 5px rgb(155, 129, 129);
+    border: none;
+}
+#email{
+    border-radius: 20px;
+        box-shadow: 5px 5px rgb(155, 129, 129);
+
+    border: none;
+}
+#phone{
+    border-radius: 20px;
+        box-shadow: 5px 5px rgb(155, 129, 129);
+
+    border: none;
+}
+#pwd{
+    border-radius: 20px;
+    box-shadow: 5px 5px rgb(155, 129, 129);
+    border: none;
+    /* width: 400px; */
+}
+#cpwd{
+    border-radius: 20px;
+        box-shadow: 5px 5px rgb(155, 129, 129);
+
+    border: none;
+}
+#age{
+    border-radius: 20px;
+        box-shadow: 5px 5px rgb(155, 129, 129);
+
+    border: none;
+}
+#outer{
+    position: relative;
+    width: 500px;
+    height: 1100px;
+    /* border: 2px solid black; */
+    box-shadow: 10px 10px 10px gray;
+    margin: auto;
+    background-color: lightblue;
+    border-radius: 20px;
+}
+form{
+    position: absolute;
+    padding: 30px;
+    font-size: 20px;
+    margin-left: 15px;
+}
+#error{
+    margin-top: -20px;
+    line-height: 20px;
+    /* background-color: gray; */
+    color: red
+}
+#error2{
+    margin-top: -20px;
+    line-height: 20px;
+    /* background-color: green; */
+    color: red;
+}
+#error3{
+    margin-top: -20px;
+    line-height: 20px;
+    /* background-color: green; */
+    color: red;
+}
+#error4{
+    margin-top: -20px;
+    line-height: 20px;
+    /* background-color: green; */
+    color: red;
+}
+#error5{
+    margin-top: -20px;
+    line-height: 20px;
+    /* background-color: green; */
+    color: red;
+}
+#error6{
+    margin-top: -20px;
+    line-height: 20px;
+    /* background-color: green; */
+    color: red;
+}
+#error7{
+    margin-top: -20px;
+    line-height: 20px;
+    /* background-color: green; */
+    color: red;
+}
+#error8{
+    margin-top: -20px;
+    line-height: 20px;
+    /* background-color: green; */
+    color: red;
+}
+#error9{
+    margin-top: -20px;
+    line-height: 20px;
+    /* background-color: green; */
+    color: red;
+}
+#error10{
+    margin-top: -20px;
+    line-height: 20px;
+    /* background-color: green; */
+    color: red;
+}
+#l_name_error{
+    margin-top: -20px;
+    line-height: 20px;
+    display: none;
+    color: red;
+}
+#email_error{
+    margin-top: -20px;
+    line-height: 20px;
+    display: none;
+    color: red;
+}
+input{
+    height: 50px;
+    width: 400px;
+    font-size: 30px;
+    border: 4px solid lightcyan;
+}
+.radiobtn{
+    width: 20px;
+    height: 20px;
+}
+#checkbtn{
+    width: 20px;
+    height: 20px;
+}
+#button{
+    width: 300px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size:30px;
+    background-color: rgb(92, 92, 209);
+    color: wheat;
+    font-weight: bolder;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.errorBorder{
+    border:2px solid red;
+}
+.password_box{
+    position: relative;
+}
+.password_box i{
+    position: absolute;
+    right: 10px;
+    top: 25%;
+    cursor: pointer;
+    color: gray;
+}

@@ -1,0 +1,111 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    /* position: relative; */
+    background-color: rgb(186, 115, 28);
+    margin: auto;
+}
+.container{
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+    width: 700px;
+    height: 620px;
+    background-color: white;
+    border-radius: 20px; 
+}
+.task{
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+    color: black;
+} 
+#btn{
+    height: 60px;
+    width: 50px;
+    margin-left: 5px;
+    font-family:'Times New Roman', Times, serif;
+    border-radius: 10px;
+    /* border: none; */
+    font-size: 20px;
+    background-color: rgb(191, 191, 72);
+    cursor: pointer;
+}
+
+#btn2{
+    height: 60px;
+    width: 50px;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    /* border: none; */
+    font-size: 20px;
+    background-color: rgb(191, 191, 72);
+    cursor: pointer;
+}
+#btn3{
+    height: 60px;
+    width: 50px;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    /* border: none; */
+    font-size: 20px;
+    background-color: rgb(191, 191, 72);
+    cursor: pointer;
+}
+#div1{
+    position: absolute;
+    height: 120px;
+    width: 100%;    
+    background-color: rgba(137, 112, 112, 0.5);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+h1{
+    text-align: center;
+}
+#div2{
+    position: absolute;
+    height: 480px;
+    top: 120px;
+    width: 100%;    
+    position: relative; 
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    /* background-color: rgb(117, 103, 103);  */
+}
+
+#inp{
+    position: absolute;
+    top: 40px;
+    margin-left: 20px;
+    height: 60px;
+    width: 500px;
+    border-radius: 10px;
+    font-size: 30px;
+    /* border: 5px solid rgb(23, 127, 168); */
+    border: none;
+}
+
+
+#addbtn{
+    position: absolute;
+    top: 40px;
+    margin-left: 550px;
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: rgb(53, 53, 162);
+    color: white;
+}
+#addbtn:hover{
+    background-color: gray;
+}

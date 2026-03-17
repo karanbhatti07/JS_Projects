@@ -1,0 +1,71 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: rgb(230, 213, 213);
+}
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: rgb(219, 201, 167);
+    margin: auto;
+    margin-top: 200px;
+    position: relative;
+}
+h1{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 45px;
+}
+input{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 45px;
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+}
+#p-len{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 43px;
+    font-size: 20px;
+}
+#I-sym{
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 43px;
+    font-size: 20px;
+}
+#I-num{
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 43px;
+    font-size: 20px;
+}
+#I-l-letter{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 43px;
+    font-size: 20px;
+}
+#I-u-letter{
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 43px;
+    font-size: 20px;
+}
+button{
+    position: relative;
+    margin-top: 400px;
+    margin-left: 43px;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: skyblue;
+    width: 400px;
+}
+#symbol{
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 230px;
+}
